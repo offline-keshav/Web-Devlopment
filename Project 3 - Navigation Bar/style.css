@@ -1,0 +1,31 @@
+:root {
+    --primary-color: #ff3604cc;
+    --text-color: white;
+    --secondary-color: #f0a45ccc;
+}
+
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: var(--secondary-color);
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+    padding: 20px;
+    font-weight: bolder;
+    color: var(--text-color);
+}
+
+ul li a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+nav {
+    background-color: var(--primary-color);
+    padding: 10px;
+}
