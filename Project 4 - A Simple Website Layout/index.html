@@ -4,41 +4,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forms - Lets learn it</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+
+        }
+
+        nav {
+            background-color: rgb(10, 183, 218);
+            height: 25px;
+        }
+
+        main {
+            background-color: rgb(178, 250, 255);
+            padding: 0;
+            height: 100vh;
+        }
+        .box1{
+            display: inline-block;
+   
+            height: 20vh;
+            width: 20vw;
+            background-color: red;
+            margin: 10%;
+        }
+        .box2{
+            display: inline-block;
+         
+            height: 20vh;
+            width: 20vw;
+            background-color: rgb(38, 0, 255);
+            margin: 10%;
+        }
+        .text-box {
+            padding: 34px;
+            border: 2px solid white;
+            margin: 50px 34vw;
+            font-size: 2em;
+            border-radius: 13px;
+
+        }
+
+        .orange-box {
+            height: 32px;
+            width: 32px;
+            background: orange;
+            position: fixed;
+            bottom: 12px;
+            right: 23px;
+            border-radius: 60px;
+        }
+
+        footer {
+            height: 100px;
+            background-color: bisque;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Form to apply for Sigma Web Development course - TA </h1>
-    <form action="post">
-        <div>
-            <label for="username">Enter your Username</label>
-            <input type="text" id="username" name="username" placeholder="Enter your username" autofocus>
+    <header>
+        <nav>
+
+        </nav>
+
+    </header>
+    <main>
+
+        <div class="cbox">
+            <div class="box1"></div>
+            <div class="box2"></div>
         </div>
-        <div>
-            <input type="radio" id="male" name="gender" value="male">
-            <label for="male">Male</label>
-            <input type="radio" id="female" name="gender" value="female">
-            <label for="female">Female</label>
+        <div class="box3"></div>
+        <div class="logo"></div>
+        <div class="text-box">
+            <p>Welcome to Sigma Web Development Express</p>
         </div>
 
-        <div>
-            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
-            <label for="subscribe">Subscribe to newsletter</label>
-        </div>
-        <div>
-            <label for="comment">Enter your comment</label>
-            <br>
-            <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
-        </div>
+        <div class="orange-box">
 
-        <div>
-            <select name="fruits">
-                <option value="apple">Apple</option>
-                <option value="banana">Banana</option>
-                <option value="cherry">Cherry</option>
-          </select>
         </div>
-    </form>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 
 </html>
